@@ -1,0 +1,63 @@
+.log-manager-container {
+    display: flex;
+}
+
+.log-manager-container form:last-child {
+    margin-left: 3rem;
+}
+
+@media (max-width: 960px) {
+    .log-manager-container {
+        flex-wrap: wrap;
+    }
+}
+
+.form-table input[type=number]{
+    max-width: 70px;
+    text-align: right;
+}
+
+.log-manager-archive-list-container {
+    max-height: 21rem;
+    padding-top: 1rem;
+    overflow-y: auto;
+    width: 330px;
+}
+
+.log-manager-archive-list {
+    width: 19rem;
+}
+
+table.log-manager-archive-list {
+    background-color: #d2d2d2;
+}
+
+.log-manager-archive-list tbody tr:nth-child(odd) {
+    background-color: #ebe9eb;
+}
+
+.log-manager-archive-list tbody tr:nth-child(even) {
+    background-color: #F4F4F4;
+}
+
+.log-manager-delete-button {
+    text-align: center;
+}
+
+.log-manager-filename {
+    padding: .5rem;
+}
+
+.log-manager-delete-button .dashicons-trash {
+    padding: .5rem 0;
+    transition: color linear 200ms;
+}
+
+.log-manager-delete-button .dashicons-trash:hover {
+    color: #c53636;
+    cursor: pointer;
+}
+
+table.log-manager-archive-list tbody {
+    border-radius: 10px;
+}
